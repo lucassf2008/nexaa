@@ -1,0 +1,20 @@
+{
+  "name": "nexa_senai",
+  "version": "1.0.0",
+  "description": "O **Nexa SENAI** é um sistema web completo de networking profissional inspirado no LinkedIn, desenvolvido exclusivamente para conectar **alunos, ex-alunos e empresas parceiras/patrocinadoras do SENAI**, facilitando a inserção dos estudantes no mercado de trabalho industrial e tecnológico, a divulgação de oportunidades, candidaturas reais e comunicação direta.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test_database.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.3.0",
+    "multer": "^2.5.0"
+  }
+}
